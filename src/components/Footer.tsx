@@ -5,7 +5,7 @@
 
 const Footer = () => {
     return (
-        <div className="flex border-t-2 border-black justify-center gap-24">
+        <div className="flex border-t-2 border-black justify-center gap-24 p-4">
             <div className="socials">
                 <h1 className="text-lg font-bold">A+ Parh</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, animi.</p>
