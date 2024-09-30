@@ -1,6 +1,6 @@
 /* 
-	function: creates a component
-	returns: component
+	function: creates a  Navbar component
+	returns: component a Navbar component
 */
 
 const Navbar = () => {
