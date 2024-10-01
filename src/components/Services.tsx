@@ -6,7 +6,7 @@
 
 const Services = () => {
     return (
-        <div className="h-screen flex justify-around items-center">
+        <div className="h-screen flex justify-around items-center" style={{height: '50vh'}}>
             <div className="left-panel">
                 <div className="title text-lg font-bold">
                     How can we help your business?
