@@ -1,7 +1,4 @@
-/* 
-	function: creates a  Navbar component
-	returns: component a Navbar component
-*/
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 	return (
@@ -22,10 +19,13 @@ const Navbar = () => {
 				<li>
 					<a href='#newsletter'>Newsletter</a>
 				</li>
+				<li>
+					<a href="#docs">Docs</a>
+				</li>
 			</ul>
 			<div className="flex gap-8">
 				<button className='outline p-2 rounded-md hover:bg-black hover:text-white transition-all'>
-					Log in
+					<Link to="/login">Log in</Link>
 				</button>
 			</div>
 		</nav>
